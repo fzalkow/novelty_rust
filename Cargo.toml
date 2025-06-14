@@ -1,0 +1,25 @@
+[package]
+name = "novelty_rust"
+version = "0.1.0"
+edition = "2021"
+description = "Compute energy-based novelty functions from audio in Rust"
+repository = "https://github.com/fzalkow/novelty_rust"
+license = "MIT"
+
+
+[dependencies]
+# Core libraries
+anyhow = "1.0.98"
+clap = { version = "4.5.40", features = ["derive"] }
+
+# Audio and signal processing
+wavers = { version = "1.5.1", features = ["ndarray"] }
+hann-rs = "0.1.0"
+
+# Numerical computing
+ndarray = "0.16.1"
+ndarray-conv = "0.4.2"
+ndarray-stats = "0.6.0"
+
+[dev-dependencies]
+float-cmp = "0.9"

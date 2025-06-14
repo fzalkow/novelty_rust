@@ -1,0 +1,6 @@
+name: novelty_rust_test_FMP
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - libfmp
