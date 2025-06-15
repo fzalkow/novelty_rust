@@ -14,7 +14,8 @@ clap = { version = "4.5.40", features = ["derive"] }
 
 # Audio and signal processing
 wavers = { version = "1.5.1", features = ["ndarray"] }
-hann-rs = "0.1.0"
+# hann-rs = "0.1.0"
+hann-rs = { git = "https://github.com/F0rty-Tw0/hann-rs.git" }
 
 # Numerical computing
 ndarray = "0.16.1"
